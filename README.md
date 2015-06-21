@@ -30,3 +30,5 @@ vim +PluginInstall +qall
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion)
 * [Trailing whitespace](https://github.com/bronson/vim-trailing-whitespace)
 * [Tabular](https://github.com/godlygeek/tabular)
+* [phpfolding](https://github.com/rayburgemeestre/phpfolding.vim)
+* [CtrlP](https://github.com/kien/ctrlp.vim)
