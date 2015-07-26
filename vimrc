@@ -34,8 +34,6 @@ call vundle#end()
 " ==================================================
 " Color scheme and fonts
 " ==================================================
-colorscheme mustang
-
 if has('gui_running')
     set guifont=DejaVu\ Sans\ Mono\ 13
     set guioptions-=T " no toolbar
@@ -43,6 +41,12 @@ if has('gui_running')
     set guioptions-=L " remove left-hand scroll bar
 else
     set t_Co=256
+endif
+
+if $TERM == "linux"
+    colorscheme desert
+else
+    colorscheme mustang
 endif
 
 " ==================================================
